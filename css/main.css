@@ -20,7 +20,7 @@ header {
     overflow: hidden;
     justify-content: center;
     text-align: center;
-    width: 640px;
+    width: 85%;
     margin: 0 auto;
     margin-bottom: 25px;
     margin-top: 25px;
@@ -55,6 +55,8 @@ nav {
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
+    margin: auto;
+    padding: 15px
 }
 
 ul.nav {
@@ -99,12 +101,13 @@ li.nav a:hover {
 .content {
     width: 75%;
     padding: 6px;
+    margin: auto;
 }
 
 h1.content {
     color: white;
-    background: rgba(32, 80, 112, 0.73); 
-    text-shadow: 5px 5px rgba(0, 0, 0, 0.384);
+    background: rgba(32, 80, 112, 0.73);
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.384);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20pt;
     margin: auto;
@@ -123,12 +126,26 @@ h3.content {
 
 p.content {
     color: white;
-    background: rgba(32, 80, 112, 0.73); 
+    background: rgba(32, 80, 112, 0.73);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12pt;
     margin: auto;
     line-height: 30px;
     text-indent: 15px;
+}
+
+a.content {
+      color: #F5DEB3;
+      text-decoration: underline;
+}
+
+a:active.content {
+      color: #00ffff;
+}
+
+a:hover.content {
+      color: #f1f1f1;
+      text-decoration: underline;
 }
 
 /* Pseudo-Window thing */
@@ -223,10 +240,6 @@ blockquote.content {
     width: 210px;
     display: block;
     text-align: center;
-    justify-content: center;
-    display: flex;
-    position: relative;
-    overflow: hidden;
     padding: 14px 16px;
     letter-spacing: 1px;
     line-height: 20px;
@@ -237,10 +250,12 @@ blockquote.content {
     float: right;
     margin: 0;
     border: 0;
+    padding: 5px;
 }
 
 .img-left {
     float: left;
     margin: 0;
     border: 0;
+    padding: 5px;
 }
