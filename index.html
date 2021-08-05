@@ -20,7 +20,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="icon" href="images/meta/favicon.ico">
         <script src="script/html5shiv.js"></script>
-        <script src="script/main.js"></script>
+        <!-- <script src="script/main.js"></script> -->
     </head>
 <!-- Main Body -->
     <body>
@@ -40,6 +40,17 @@
             <a href="javascript:void(0);" class="icon" onclick="navFunction()">
               <i class="fa fa-bars"></i>
             </a>
+
+            <script>
+              function navFunction() {
+                var x = document.getElementById("mainNavigation");
+                if (x.className === "nav") {
+                  x.className += " responsive";
+                } else {
+                  x.className = "nav";
+                }
+              }
+            </script>
         </nav>
     <!-- Under Construction banner !REMOVE! -->
         <div>
