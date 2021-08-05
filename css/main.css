@@ -21,6 +21,7 @@ header {
     justify-content: center;
     text-align: center;
     width: 85%;
+    max-width: 720px;
     margin: 0 auto;
     margin-bottom: 25px;
     margin-top: 25px;
@@ -49,6 +50,8 @@ p.header {
 .nav {
   background-color: #333;
   overflow: hidden;
+  max-width: 720px;
+  margin: auto;
 }
 
 .nav a {
@@ -58,6 +61,7 @@ p.header {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 17px;
 }
 
@@ -142,8 +146,7 @@ li.nav a:hover {
 }
 
 .content {
-    width: 75%;
-    padding: 6px;
+    max-width: 720px;
     margin: auto;
 }
 
@@ -197,7 +200,8 @@ p.window {
     background: grey;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12pt;
-    width: 75%;
+    width: 85%;
+    max-width: 720px;
     margin: 0 auto;
     text-align: center;
     line-height: 30px;
@@ -213,7 +217,8 @@ h3.window {
     background: grey;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12pt;
-    width: 75%;
+    width: 85%;
+    max-width: 720px;
     margin: 0 auto;
     text-align: center;
     line-height: 30px;
@@ -229,7 +234,8 @@ ul.window {
     background: grey;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12pt;
-    width: 75%;
+    width: 85%;
+    max-width: 720px;
     margin: 0 auto;
     text-align: left;
     line-height: 30px;
@@ -247,7 +253,8 @@ h2.window {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0 auto;
     text-align: left;
-    width: 75%;
+    width: 85%;
+    max-width: 720px;
     padding: 6px;
     border-left: 4px solid rgb(95, 95, 95);
     border-right: 4px solid rgb(66, 66, 66);
