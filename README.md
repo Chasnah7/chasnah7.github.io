@@ -1,6 +1,7 @@
 # chasnah7.github.io
 
 My personal projects website.
+Entirely hand written in Atom & VS Code.
 
 It's not finished yet.
 
