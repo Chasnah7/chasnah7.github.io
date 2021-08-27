@@ -25,12 +25,12 @@
 <!-- Main Body -->
     <body>
     <!-- Top Header -->
-        <header>
+        <header class="tophead">
             <h1>Links & Resources</h1>
             <p>chasnah7.github.io</p>
         </header>
     <!-- Nav Bar -->
-        <nav id="mainNavigation">
+        <nav class="main-nav" id="mainNavigation">
             <a href="index.html">Home</a>
             <a href="project.html">Projects</a>
             <a class="active" href="resource.html">Links</a>
@@ -42,10 +42,17 @@
             </a>
         </nav>
     <!-- Main Content -->
-        <main class="content" role="main">
-            <h1>Links</h1>
-                <p><i>Links curated by me including downloads and other web sites you should check out.</i></p>
-        <div class="window">
+        <div class="mainhead">
+          <h1>Links</h1>
+          <p>Links curated by me including downloads and other web sites you should check out.</p>
+        </div>
+        <main class="flex-container content" role="main">
+        <aside class="flex-child toc-container">
+          <nav class="toc-doc">
+            <header><h2>Table of Contents</h2></header>
+          </nav>
+        </aside>
+        <div class="flex-child window">
             <h2>Personal Links</h2>
                 <h3>Links to personal resources I have available.</h3>
                 <ul>
