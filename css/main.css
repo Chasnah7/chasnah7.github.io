@@ -52,13 +52,13 @@ header.tophead p {
 }
 
 /* NavBar */
-nav.main-nav {
+nav {
     background-image: linear-gradient(0deg, rgb(0, 0, 102, 0.7), rgb(0, 0, 204, 0.7));
     overflow: hidden;
     margin: 0 auto;
 }
 
-nav.main-nav a {
+nav a {
     float: left;
     display: block;
     color: #f2f2f2;
@@ -69,7 +69,7 @@ nav.main-nav a {
     font-size: 17px;
 }
 
-nav.main-nav a:hover {
+nav a:hover {
     color: white;
     background-image: linear-gradient(0deg, rgb(32, 80, 112, 0.5), rgb(32, 80, 112, 0.0));
     background-color: rgb(255, 255, 255, 0.1);
@@ -78,12 +78,12 @@ nav.main-nav a:hover {
     -webkit-transition: 0.5s ease-in-out;
 }
 
-nav.main-nav a.active {
+nav a.active {
     background-image: linear-gradient(0deg, rgb(32, 80, 112, 1.0), rgb(32, 80, 112, 0));
     color: white;
 }
 
-nav.main-nav .icon {
+nav .icon {
     display: none;
 }
 
