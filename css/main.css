@@ -8,12 +8,17 @@ body {
     background-repeat: repeat;
     background-color: #10121D;
     color: #F5FFFA;
-    margin: 0;
+    margin: auto;
+    max-width: 1400px;
 }
 
-header {
+.inline {
+    display: inline-block;
+}
+
+header.tophead {
     background: rgb(5,0,79);
-    background: linear-gradient(0deg, rgba(5,0,79,0.7822818214584977) 54%, rgba(0,212,255,0) 100%);
+    background: linear-gradient(0deg, rgb(0, 0, 102, 0.7), rgb(0, 0, 204, 0.7), rgb(0, 0, 102, 0.7));
     box-shadow: 10px 15px 4px rgba(0, 0, 0, 0.384);
     display: block;
     position: relative;
@@ -27,7 +32,7 @@ header {
     margin-top: 25px;
 }
 
-header h1 {
+header.tophead h1 {
     color: whitesmoke;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 40pt;
@@ -37,7 +42,7 @@ header h1 {
     margin-bottom: 0;
 }
 
-header p {
+header.tophead p {
     color: whitesmoke;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12pt;
@@ -47,40 +52,39 @@ header p {
 }
 
 /* NavBar */
-nav {
-  background-image: linear-gradient(0deg, rgb(0, 0, 102, 0.7), rgb(0, 0, 204, 0.7));
-  overflow: hidden;
-  max-width: 1024px;
-  margin: auto;
+nav.main-nav {
+    background-image: linear-gradient(0deg, rgb(0, 0, 102, 0.7), rgb(0, 0, 204, 0.7));
+    overflow: hidden;
+    margin: 0 auto;
 }
 
-nav a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 17px;
+nav.main-nav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
 }
 
-nav a:hover {
-  color: white;
-  background-image: linear-gradient(0deg, rgb(32, 80, 112, 0.75), rgb(32, 80, 112, 0));
-  background-color: rgb(255, 255, 255, 0.65);
-  transition: 0.3s ease-in-out;
-  -moz-transition: 0.3s ease-in-out;
-  -webkit-transition: 0.3s ease-in-out;
+nav.main-nav a:hover {
+    color: white;
+    background-image: linear-gradient(0deg, rgb(32, 80, 112, 0.5), rgb(32, 80, 112, 0.0));
+    background-color: rgb(255, 255, 255, 0.1);
+    transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -webkit-transition: 0.5s ease-in-out;
 }
 
-nav a.active {
-  background-image: linear-gradient(0deg, rgb(32, 80, 112, 0.75), rgb(32, 80, 112, 0));
-  color: white;
+nav.main-nav a.active {
+    background-image: linear-gradient(0deg, rgb(32, 80, 112, 1.0), rgb(32, 80, 112, 0));
+    color: white;
 }
 
-nav .icon {
-  display: none;
+nav.main-nav .icon {
+    display: none;
 }
 
 @media screen and (max-width: 600px) {
@@ -116,54 +120,133 @@ nav .icon {
     text-align: left;
 }
 
-.content {
-    max-width: 1024px;
-    margin: auto;
+.mainhead {
+    background-image: linear-gradient(0deg, rgba(32, 80, 112, 0.75), rgba(32, 80, 112, 1.0));
+    margin: 0 auto;
+    margin-bottom: 15px;
+
 }
 
-.content h1 {
+.mainhead h1 {
     color: white;
-    background: rgba(32, 80, 112, 0.75);
     text-shadow: 2px 2px rgba(0, 0, 0, 0.384);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20pt;
-    margin: auto;
     line-height: 30px;
     padding: 10px;
+    margin: 0  auto;
 }
 
-.content h3 {
+.mainhead h3 {
     width: 100%;
-	font-family: Arial, Helvetica, sans-serif;
+	  font-family: Arial, Helvetica, sans-serif;
     font-size: 8pt;
-	text-decoration: bold;
+	  text-decoration: bold;
     color: seashell;
     text-align: center;
     margin-top: 30px;
 }
 
-.content p {
+.mainhead p {
     color: white;
-    background: rgba(32, 80, 112, 0.73);
     font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
     font-size: 12pt;
-    margin: auto;
     line-height: 30px;
     text-indent: 15px;
 }
 
+.mainhead a {
+    color: #F5DEB3;
+    text-decoration: underline;
+}
+
+.mainhead a:active {
+    color: #00ffff;
+}
+
+.mainhead a:hover {
+    color: #f1f1f1;
+    text-decoration: underline;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-child {
+    flex: 1;
+}
+
+.flex-child:first-child {
+    margin-right: 20px;
+}
+
+.content {
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content section {
+    background: rgba(59, 59, 59, 0.73);
+    color: white;
+}
+
+.content article {
+    font-size: small;
+}
+
+.content p {
+    font-size: 12pt;
+    margin: auto;
+    line-height: 30px;
+    text-indent: 20px;
+}
+
+.content h1 {
+    margin: 10px;
+    padding: 5px;
+}
+
 .content a {
-      color: #F5DEB3;
-      text-decoration: underline;
+    color: #F5DEB3;
+    text-decoration: underline;
 }
 
 .content a:active {
-      color: #00ffff;
+    color: #00ffff;
 }
 
 .content a:hover {
-      color: #f1f1f1;
-      text-decoration: underline;
+    color: #f1f1f1;
+    text-decoration: underline;
+}
+
+.toc-container {
+    max-width: 320px;
+}
+
+.toc-doc {
+    font-size: 1rem;
+    padding: 6px 24px;
+    position: relative;
+    background: rgba(59, 59, 59, 0.73);
+}
+
+.toc-doc ul {
+    list-style: none;
+    padding: 0 24px;
+    top: 65px;
+    z-index: 300;
+}
+
+.toc-doc ul li {
+    line-height: 1.2;
+    margin:20px 0
+}
+
+.toc-doc a {
+    color: white;
 }
 
 /* Pseudo-Window thing */
@@ -172,8 +255,8 @@ nav .icon {
     background: grey;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12pt;
-    width: 85%;
-    max-width: 720px;
+    width: 90%;
+    max-width: 800px;
     margin: 0 auto;
     text-align: center;
     line-height: 30px;
@@ -189,8 +272,8 @@ nav .icon {
     background: grey;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12pt;
-    width: 85%;
-    max-width: 720px;
+    width: 90%;
+    max-width: 800px;
     margin: 0 auto;
     text-align: center;
     line-height: 30px;
@@ -206,8 +289,8 @@ nav .icon {
     background: grey;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12pt;
-    width: 85%;
-    max-width: 720px;
+    width: 90%;
+    max-width: 800px;
     margin: 0 auto;
     text-align: left;
     line-height: 30px;
@@ -220,13 +303,13 @@ nav .icon {
 
 .window h2 {
     background: rgb(7,0,106);
-    background: linear-gradient(90deg, rgba(7,0,106,1) 0%, rgba(52,64,255,1) 78%);
+    background: linear-gradient(90deg, rgba(7,0,106,1) 5%, rgba(52,64,255,1) 73%);
     color: whitesmoke;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0 auto;
     text-align: left;
-    width: 85%;
-    max-width: 720px;
+    width: 90%;
+    max-width: 800px;
     padding: 6px;
     border-left: 4px solid rgb(95, 95, 95);
     border-right: 4px solid rgb(66, 66, 66);
@@ -238,17 +321,17 @@ nav .icon {
 }
 
 .window a {
-      color: #14107a;
-      text-decoration: underline;
+    color: #14107a;
+    text-decoration: underline;
 }
 
 .window a:active {
-      color: #00daff;
+    color: #00daff;
 }
 
 .window a:hover {
-      color: #0f06ff;
-      text-decoration: underline;
+    color: #0f06ff;
+    text-decoration: underline;
 }
 
 footer {
@@ -270,7 +353,7 @@ footer h3 {
     padding: 5px;
 }
 
-blockquote.dumb{
+blockquote.dumb {
     background: rgba(51, 51, 51, 0.678);
     font-family: 'Times New Roman', Times, serif;
     margin: auto;
