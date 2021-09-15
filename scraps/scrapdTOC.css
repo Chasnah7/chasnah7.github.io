@@ -1,0 +1,59 @@
+.toc {
+    font-size: 1rem;
+    padding: 6px 24px;
+    position: relative;
+    background: rgba(59, 59, 59, 0.73);
+}
+
+.toc ul {
+    list-style: none;
+    padding: 0 24px;
+    top: 65px;
+    z-index: 300;
+}
+
+.toc ul li {
+    line-height: 1.2;
+    margin:20px 0
+}
+
+.toc h2 {
+    font-size: large;
+}
+
+.toc a {
+    color: white;
+}
+
+.tocicon {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .toc nav ul:not(:first-child) {display:none;}
+    .toc header h2 {
+        float: left;
+        display: block;
+    }
+    .toc nav a.tocicon {
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    nav.toc-responsive {
+      position: relative;
+    }
+    nav.toc-responsive a.tocicon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    nav.toc-responsive li {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+}
+  
