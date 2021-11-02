@@ -199,6 +199,10 @@ header.tophead p {
     }
 }
 
+.quicknav {
+    background: rgba(59, 59, 59, 0.73);
+}
+
 .content {
     margin: 0 auto;
     font-family: Arial, Helvetica, sans-serif;
