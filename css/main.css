@@ -175,8 +175,13 @@ header.tophead p {
     display: flex;
     margin: auto;
   }
-  
+ 
 .wrap-left {
+    width: 70%;
+    padding-right: 5px;
+}
+
+.wrap-thinleft {
     width: 30%;
     /*border: 1px solid green; REMOVE BEFORE PUSH !!!*/
 }
@@ -185,6 +190,10 @@ header.tophead p {
     width: 70%;
     /*border: 1px solid blue; REMOVE BEFORE PUSH !!!*/
   }
+
+ .wrap-thinright {
+     width: 30%;
+ } 
   
 @media (max-width: 600px) {
     .wrap {
