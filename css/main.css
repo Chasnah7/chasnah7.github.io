@@ -183,6 +183,7 @@ header.tophead p {
 
 .wrap-thinleft {
     width: 30%;
+    padding-right: 5px;
     /*border: 1px solid green; REMOVE BEFORE PUSH !!!*/
 }
 
@@ -199,16 +200,31 @@ header.tophead p {
     .wrap {
       flex-direction: column;
     }
+    
     .wrap-left {
         width: 100%;
         margin-bottom: 15px;
     }
+    
     .wrap-right {
+        width: 100%;
+    }
+
+    .wrap-thinleft {
+        width: 100%;
+    }
+
+    .wrap-thinright {
         width: 100%;
     }
 }
 
 .quicknav {
+    background: rgba(59, 59, 59, 0.73);
+}
+
+.updates {
+    font-size: medium;
     background: rgba(59, 59, 59, 0.73);
 }
 
@@ -224,11 +240,10 @@ header.tophead p {
 }
 
 .content article {
-    font-size: small;
+    font-size: medium;
 }
 
 .content p {
-    font-size: 12pt;
     margin: auto;
     line-height: 30px;
     text-indent: 20px;
