@@ -218,10 +218,6 @@ header.tophead p {
     }
 }
 
-.quicknav {
-    font-size: large;
-}
-
 .updates {
     font-size: medium;
 }
@@ -232,13 +228,19 @@ header.tophead p {
 }
 
 .content section {
-    margin: auto;
+    margin: 0 auto;
     color: white;
     background: rgba(59, 59, 59, 0.73);
 }
 
 .content article {
     font-size: medium;
+}
+
+.content nav {
+    margin: auto;
+    line-height: 30px;
+    font-size: large;
 }
 
 .content p {
@@ -248,13 +250,19 @@ header.tophead p {
 }
 
 .content h1 {
+    font-size: 20px;
     margin: 10px;
     padding: 5px;
 }
 
+.content ul {
+    list-style: none;
+    margin: 0 auto;
+}
+
 .content a {
     color: #F5DEB3;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .content a:active {
