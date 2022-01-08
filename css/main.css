@@ -124,7 +124,6 @@ header.tophead p {
 .mainhead {
     background-image: linear-gradient(0deg, rgba(32, 80, 112, 0.75), rgba(32, 80, 112, 1.0));
     margin: 0 auto;
-    margin-bottom: 15px;
 
 }
 
@@ -155,6 +154,7 @@ header.tophead p {
     font-size: 12pt;
     line-height: 30px;
     text-indent: 15px;
+    margin: 0 auto;
 }
 
 .mainhead a {
@@ -173,11 +173,17 @@ header.tophead p {
 
 .wrap {
     display: flex;
-    margin: auto;
+    margin: 0 auto;
   }
-  
+ 
 .wrap-left {
+    width: 70%;
+    padding-right: 10px;
+}
+
+.wrap-thinleft {
     width: 30%;
+    padding-right: 10px;
     /*border: 1px solid green; REMOVE BEFORE PUSH !!!*/
 }
 
@@ -185,18 +191,35 @@ header.tophead p {
     width: 70%;
     /*border: 1px solid blue; REMOVE BEFORE PUSH !!!*/
   }
+
+ .wrap-thinright {
+     width: 30%;
+ } 
   
 @media (max-width: 600px) {
     .wrap {
       flex-direction: column;
     }
+    
     .wrap-left {
         width: 100%;
-        margin-bottom: 15px;
     }
+    
     .wrap-right {
         width: 100%;
     }
+
+    .wrap-thinleft {
+        width: 100%;
+    }
+
+    .wrap-thinright {
+        width: 100%;
+    }
+}
+
+.updates {
+    font-size: medium;
 }
 
 .content {
@@ -205,30 +228,41 @@ header.tophead p {
 }
 
 .content section {
-    background: rgba(59, 59, 59, 0.73);
-    margin: auto;
+    margin: 0 auto;
     color: white;
+    background: rgba(59, 59, 59, 0.73);
 }
 
 .content article {
-    font-size: small;
+    font-size: medium;
+}
+
+.content nav {
+    margin: auto;
+    line-height: 30px;
+    font-size: large;
 }
 
 .content p {
-    font-size: 12pt;
     margin: auto;
     line-height: 30px;
     text-indent: 20px;
 }
 
 .content h1 {
+    font-size: 20px;
     margin: 10px;
     padding: 5px;
 }
 
+.content ul {
+    list-style: none;
+    margin: 0 auto;
+}
+
 .content a {
     color: #F5DEB3;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .content a:active {
@@ -237,95 +271,6 @@ header.tophead p {
 
 .content a:hover {
     color: #f1f1f1;
-    text-decoration: underline;
-}
-
-/* Pseudo-Window thing */
-.window {
-    margin: auto;
-}
-
-.window p {
-    color: black;
-    background: grey;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 12pt;
-    width: 90%;
-    max-width: 800px;
-    margin: 0 auto;
-    text-align: center;
-    line-height: 30px;
-    padding: 6px;
-    border-left: 4px solid rgb(95, 95, 95);
-    border-right: 4px solid rgb(66, 66, 66);
-    border-bottom: 4px solid rgb(66, 66, 66);
-    box-shadow: 10px 15px 4px rgba(0, 0, 0, 0.384);
-    margin-bottom: 30px;
-}
-
-.window h3 {
-    color: black;
-    background: grey;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 12pt;
-    width: 90%;
-    max-width: 800px;
-    margin: 0 auto;
-    text-align: center;
-    line-height: 30px;
-    padding: 6px;
-    border-left: 4px solid rgb(95, 95, 95);
-    border-right: 4px solid rgb(66, 66, 66);
-    box-shadow: 10px 15px 4px rgba(0, 0, 0, 0.384);
-}
-
-.window ul {
-    list-style: none;
-    color: black;
-    background: grey;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 12pt;
-    width: 90%;
-    max-width: 800px;
-    margin: 0 auto;
-    text-align: left;
-    line-height: 30px;
-    padding: 6px;
-    border-left: 4px solid rgb(95, 95, 95);
-    border-right: 4px solid rgb(66, 66, 66);
-    border-bottom: 4px solid rgb(66, 66, 66);
-    box-shadow: 10px 15px 4px rgba(0, 0, 0, 0.384);
-    margin-bottom: 30px;
-}
-
-.window h2 {
-    background: rgb(7,0,106);
-    background: linear-gradient(90deg, rgba(7,0,106,1) 5%, rgba(52,64,255,1) 73%);
-    color: whitesmoke;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0 auto;
-    text-align: left;
-    width: 90%;
-    max-width: 800px;
-    padding: 6px;
-    border-left: 4px solid rgb(95, 95, 95);
-    border-right: 4px solid rgb(66, 66, 66);
-    border-top: 4px solid rgb(95, 95, 95);
-    border-bottom: 4px solid rgb(66, 66, 66);
-    box-shadow: 10px 15px 4px rgba(0, 0, 0, 0.384);
-}
-
-.window a {
-    color: #14107a;
-    text-decoration: underline;
-}
-
-.window a:active {
-    color: #00daff;
-}
-
-.window a:hover {
-    color: #0f06ff;
     text-decoration: underline;
 }
 

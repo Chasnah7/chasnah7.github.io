@@ -1,0 +1,88 @@
+/* Pseudo-Window thing */
+.window {
+    margin: auto;
+}
+
+.window p {
+    color: black;
+    background: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 30px;
+    padding: 6px;
+    border-left: 4px solid rgb(95, 95, 95);
+    border-right: 4px solid rgb(66, 66, 66);
+    border-bottom: 4px solid rgb(66, 66, 66);
+    box-shadow: 10px 15px 4px rgba(0, 0, 0, 0.384);
+    margin-bottom: 30px;
+}
+
+.window h3 {
+    color: black;
+    background: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 30px;
+    padding: 6px;
+    border-left: 4px solid rgb(95, 95, 95);
+    border-right: 4px solid rgb(66, 66, 66);
+    box-shadow: 10px 15px 4px rgba(0, 0, 0, 0.384);
+}
+
+.window ul {
+    list-style: none;
+    color: black;
+    background: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+    line-height: 30px;
+    padding: 6px;
+    border-left: 4px solid rgb(95, 95, 95);
+    border-right: 4px solid rgb(66, 66, 66);
+    border-bottom: 4px solid rgb(66, 66, 66);
+    box-shadow: 10px 15px 4px rgba(0, 0, 0, 0.384);
+    margin-bottom: 30px;
+}
+
+.window h2 {
+    background: rgb(7,0,106);
+    background: linear-gradient(90deg, rgba(7,0,106,1) 5%, rgba(52,64,255,1) 73%);
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    text-align: left;
+    width: 90%;
+    max-width: 800px;
+    padding: 6px;
+    border-left: 4px solid rgb(95, 95, 95);
+    border-right: 4px solid rgb(66, 66, 66);
+    border-top: 4px solid rgb(95, 95, 95);
+    border-bottom: 4px solid rgb(66, 66, 66);
+    box-shadow: 10px 15px 4px rgba(0, 0, 0, 0.384);
+}
+
+.window a {
+    color: #14107a;
+    text-decoration: underline;
+}
+
+.window a:active {
+    color: #00daff;
+}
+
+.window a:hover {
+    color: #0f06ff;
+    text-decoration: underline;
+}
