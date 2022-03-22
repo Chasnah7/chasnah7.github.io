@@ -278,8 +278,9 @@ header.tophead p {
 .content h1 {
     display: table;
     font-size: 20px;
-    color: black;
+    color: rgb(19, 19, 19);
     background: white;
+    background-image: url("../images/paper.gif");
     border-radius: 1rem;
     margin: 10px;
     padding: 5px;
