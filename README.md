@@ -1,7 +1,7 @@
 # chasnah7.github.io
 
 My personal projects website.
-Entirely hand written in Atom & VS Code.
+Entirely hand written in VS Code.
 
 It's not finished yet.
 
@@ -26,6 +26,7 @@ It's not finished yet.
 
 - Rounded CSS look (1/14/22)
 - Content (1/14/22)
+- About page (3/23/22)
 
 ## TO BE WORKED ON
 

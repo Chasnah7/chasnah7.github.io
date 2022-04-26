@@ -29,7 +29,7 @@
         </a>
     <!-- Top Header -->
         <header class="tophead">
-            <h1>Chasnah's Homepage</h1>
+            <h1>Homepage</h1>
             <p>chasnah7.github.io</p>
         </header>
     <!-- Nav Bar -->
@@ -48,40 +48,67 @@
     <!-- Main Content -->
           <div class="mainhead">
             <h1>If there could be such a thing as a modern Geocities site...</h1>
-            <p>It would probably look like this mess.</p>
+              <p>It would probably look like this mess.</p>
           </div>
-          <main class="wrap content" role="main" id="main content">
+          <main class="wrap content" role="main" id="mainContent">
             <div class="wrap-left">
               <section>
-                <article>
                   <h1>We do a little HTML.</h1>
-                  <p>Content is supposed to go here!</p>
+                <article>  
+                  <p>I have been painstakingly laying out this entire website by hand in VSCode. It is an incredible mess currently.</p>
                 </article>
               </section> 
+              <section>
+                <h1>Welcome to my homepage</h1>
+                <article>
+                  <p>I like restoring 80s and 90's computers and equipment and preserving information.
+                    Sometimes I do coding projects.
+                  </p>
+                </article>
+              </section>
             </div>
             <div class="wrap-thinright content">
+              <section class="profile">
+                <img src="images/meta/pixprof.png">
+                <h4>professional dumbass</h4>
+              </section>
               <section> 
-                <h1>Personal Quick Links</h1>
-                <nav>
-                  <ul>
-                    <li><a href="https://www.youtube.com/channel/UC0g5jmQX8uT3bmMQR5WnbNg">Youtube</a></li>
-                    <li><a class="content" href="https://twitter.com/Chasnah7">Twitter</a></li>
+                <h1>Personal Links</h1>
+                <nav id="collapseRight">
+                  <ul class="icon">
+                    <a href="https://www.youtube.com/channel/UC0g5jmQX8uT3bmMQR5WnbNg"><img src="images/youtube.svg" alt="Youtube"></a>
+                    <a href="https://twitter.com/Chasnah7"><img src="images/Twitter-logo.svg" alt="HellSite"></a>
+                    <a href="https://tech.lgbt/@chasnah"><img src="images/mastodon.svg" alt="Mastodon"></a>
+                    <a href="https://github.com/Chasnah7"><img src="images/github.svg" alt="GitHub"></a>
                     <li><a href="https://chasnah.neocities.org">Neocities.org</a></li>
                     <li><a href="https://archive.org/details/@chasnah">Archive.org</a></li>
                     <li><a href="https://www.redbubble.com/people/Socket7/shop?asc=u">Redbubble</a></li>
-                </ul>
+                  </ul>
+                  <a href="javascript:void(0);" class="navicon" onclick="collapFunction()">
+                    <i class="fa fa-bars"></i>
+                  </a>
                 </nav>
               </section>
               <section>
-                <h1>test</h1>
-                <p>wow.</p>
+                <h1>Places I Like</h1>
+                <nav id="collapseRight">
+                  <ul>
+                    <li><a href="https://theoldnet.com/">TheOldNet</a></li>
+                    <li><a href="https://gifcities.org/">GIFcities</a></li>
+                    <li><a href="https://faderax.github.io/">faderax</a></li>
+                    <li><a href="https://bonyoze.github.io/">bonyoze</a></li>
+                    <li><a href="https://sterophonick.github.io/">sterophonick</a></li>
+                  </ul>
+                  <a href="javascript:void(0);" class="navicon" onclick="collapFunction()">
+                    <i class="fa fa-bars"></i>
+                  </a>
+                </nav>
               </section>
             </div>
         </main>
         <br>
     <!-- Footer -->
         <footer>
-            <a href="web3.html"><img src="images/anim/WEB3SUCKS.gif"></a>
             <h3>Copyright &copy;2022 Chasnah.</h3>
         </footer>
     </body>

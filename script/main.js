@@ -14,3 +14,13 @@ function navFunction() {
     x.className = "nav";
   }
 }
+
+//Collapsable Sections
+function collapFunction() {
+  var x = document.getElementById("collapseRight");
+  if (x.className === "nav") {
+    x.className += " responsive";
+  } else {
+    x. classname = "nav";
+  }
+}
