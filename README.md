@@ -13,6 +13,7 @@ It's not finished yet.
 - Code for wrapping screen content for easier mobile viewing. (9/15/21)
 - INDEV BRANCH (9/15/21)
 - Skip Navigation hidden button (1/14/22)
+- archival.html, store.html, 90's style buttons (6/8/22)
 
 ## REMOVED
 
@@ -20,7 +21,8 @@ It's not finished yet.
 - test.html (8/4/21)
 - A ton of useless class tags (8/5/21)
 - Old navbar code in css/main.css (8/11/21)
-- Link to resources.html (1/14/22)
+- Link to resource.html (1/14/22)
+- about.html, contact.html, resource.html (6/8/22)
 
 ## CURRENTLY WORKING ON
 
