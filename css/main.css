@@ -285,6 +285,14 @@ header.tophead p {
     margin: auto;
 }
 
+.profile li {
+    margin: auto;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 10px;
+    max-width: 85%;
+}
+
 .profile img {
     /** float: right; **/
     display: block;
