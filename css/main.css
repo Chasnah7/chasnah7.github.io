@@ -285,6 +285,12 @@ header.tophead p {
     margin: auto;
 }
 
+.profile p {
+    text-align: center;
+    padding-bottom: 10px;
+    margin: auto;
+}
+
 .profile li {
     margin: auto;
     margin-left: 15%;
@@ -317,6 +323,7 @@ header.tophead p {
     color: white;
     background: rgba(59, 59, 59, 0.73);
     padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .content article {
@@ -345,7 +352,9 @@ header.tophead p {
     background: white;
     background-image: url("../images/paper.gif");
     border-radius: 1rem;
+    box-shadow: 5px 10px 4px rgba(0, 0, 0, 0.384);
     margin: 10px;
+    margin-bottom: 15px;
     padding: 5px;
 }
 
