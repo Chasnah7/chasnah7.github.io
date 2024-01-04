@@ -28,7 +28,6 @@ It's not finished yet.
 
 - Rounded CSS look (1/14/22)
 - Content (1/14/22)
-- ~~About page (3/23/22)~~ __REMOVED__
 - Archival Page (6/8/22)
 - Random header splash pulled from json file using javascript (6/14/22)
 

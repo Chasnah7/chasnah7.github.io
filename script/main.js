@@ -1,7 +1,7 @@
 /*
   - chasnah7.github.io JavaScript Source Code
   - main.js
-  - Copyright 2023 Chasnah
+  - Copyright 2024 Chasnah
   - Date Created: 8/4/21
 */
 
